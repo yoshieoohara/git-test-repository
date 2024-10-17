@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML&CSS 実践</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="header-wrap">
+        <div class="header-wrap__img">
+          <a href="#">
+            <img src="img/logo.png" alt="ロゴ画像" />
+          </a>
+        </div>
+        <nav class="header-wrap__nav">
+          <ul class="header-wrap__nav__list">
+            <li class="header-wrap__nav__list__item">
+              <a href="#news">News</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="#concept">Concept</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="#lesson">Lesson</a>
+            </li>
+            <li class="header-wrap__nav__list__item">
+              <a href="#instructor">Instructor</a>
+            </li>
+            <li class="header-wrap__nav__list__item __contact">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- top -->
+      <section class="top" id="top">
+        <div class="top-wrap __bg">
+          <h1 class="f-ttl">「なりたい私」<span>を叶える</span>ヨガスクール</h1>
+        </div>
+      </section>
+
+      <!-- news -->
+      <section class="news" id="news">
+        <div class="news-wrap __inner">
+          <div class="news-wrap__ttl">
+            <h2 class="s-ttl__1">
+              <span>お知らせ</span>
+              News
+            </h2>
+          </div>
+          <div class="news-wrap__con">
+            <ul class="news-wrap__con__list">
+              <li class="news-wrap__con__list__item">
+                <p class="news-wrap__con__list__item__date">2023.08.01</p>
+                <p class="news-wrap__con__list__item__cate">イベント</p>
+                <p class="news-wrap__con__list__item__head">
+                  9/16（土）オープン3周年記念イベントを開催します
+                </p>
+              </li>
+              <li class="news-wrap__con__list__item">
+                <p class="news-wrap__con__list__item__date">2023.06.01</p>
+                <p class="news-wrap__con__list__item__cate">キャンペーン</p>
+                <p class="news-wrap__con__list__item__head">
+                  【6/1～8/31】夏限定！入会費無料キャンペーン実施中
+                </p>
+              </li>
+              <li class="news-wrap__con__list__item">
+                <p class="news-wrap__con__list__item__date">2023.04.01</p>
+                <p class="news-wrap__con__list__item__cate">お知らせ</p>
+                <p class="news-wrap__con__list__item__head">
+                  ホームページをリニューアルしました
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about" id="about">
+        <div class="about-wrap __inner">
+          <div class="about-wrap__img">
+            <img src="img/about-img.png" alt="WithCode紹介画像" />
+          </div>
+          <div class="about-wrap__con">
+            <h2 class="s-ttl__2">
+              Concept
+              <span>ヨガスクールWithCodeについて</span>
+            </h2>
+            <p class="about-wrap__con__head">
+              あなたの目的やレベルに合ったレッスンだから、<br />無理なく続けられる
+            </p>
+            <p class="about-wrap__con__txt">
+              ヨガスタジオWithCodeは手軽にレッスンを受講できる「チケット制」を導入しています。予約はスマートフォンから希望の日時とレッスンを選択するだけ。忙しい方やライフスタイルに合わせて、柔軟にヨガを楽しんでいただけます。
+              <br /><br />
+              運動量や目的別に3つのコースをご用意しております。初めてチャレンジするレッスンでも、あなたのレベルに合わせてインストラクターが丁寧に指導いたします。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- lesson -->
+      <section class="lesson" id="lesson">
+        <div class="lesson-wrap __inner">
+          <div class="lesson-wrap__ttl">
+            <h2 class="s-ttl__3">
+              <span>レッスン内容</span>
+              Lesson
+            </h2>
+          </div>
+          <div class="lesson-wrap__con">
+            <div class="lesson-wrap__con__block">
+              <div class="lesson-wrap__con__block__top __block__img1">
+                <span class="lesson-wrap__con__block__top__head">
+                  ベーシックコース
+                </span>
+              </div>
+              <p class="lesson-wrap__con__block__txt">
+                ヨガが初めての方や、日々のストレスを解消したい方に最適です。呼吸法や簡単なポーズを通じて、心と体をリラックスさせることに重点を置きます。
+              </p>
+            </div>
+            <div class="lesson-wrap__con__block">
+              <div class="lesson-wrap__con__block__top __block__img2">
+                <span class="lesson-wrap__con__block__top__head">
+                  アクティブコース
+                </span>
+              </div>
+              <p class="lesson-wrap__con__block__txt">
+                ヨガ経験がある程度ある方に適しており、柔軟性や筋力を向上させることを目指します。ポーズを連続的に行い、呼吸と動きをシンクロさせることに焦点を当てたダイナミックなクラスです。
+              </p>
+            </div>
+            <div class="lesson-wrap__con__block">
+              <div class="lesson-wrap__con__block__top __block__img3">
+                <span class="lesson-wrap__con__block__top__head">
+                  アドヴァンスコース
+                </span>
+              </div>
+              <p class="lesson-wrap__con__block__txt">
+                ヨガの経験が豊富で、さらに深いポーズやチャレンジングな動きを求める方に向けています。より高度なポーズや深いストレッチを学び、身体と精神の限界に挑戦します。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- instructor -->
+      <section class="instructor" id="instructor">
+        <div class="instructor-wrap __inner">
+          <div class="instructor-wrap__ttl">
+            <h2 class="s-ttl__3">
+              <span>講師紹介</span>
+              Instructor
+            </h2>
+          </div>
+          <div class="instructor-wrap__con">
+            <div class="instructor-wrap__con__block __block__img1">
+              <span class="instructor-wrap__con__block__head">市川 ゆかり</span>
+            </div>
+            <div class="instructor-wrap__con__block __block__img2">
+              <span class="instructor-wrap__con__block__head">鈴木 千里</span>
+            </div>
+            <div class="instructor-wrap__con__block __block__img3">
+              <span class="instructor-wrap__con__block__head">前田 香菜</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact __bg" id="contact">
+        <div class="contact-wrap __inner">
+          <div class="contact-wrap__ttl">
+            <h2 class="s-ttl__4">
+              <span>お問い合わせ</span>
+              Contact
+            </h2>
+          </div>
+          <div class="contact-wrap__con">
+            <form action="#" class="contact-wrap__con__form" method="post">
+              <div class="contact-wrap__con__form__item">
+                <label for="name">氏名</label>
+                <input type="text" id="name" name="user_name" />
+              </div>
+              <div class="contact-wrap__con__form__item">
+                <label for="mail">メールアドレス</label>
+                <input type="email" id="mail" name="user_mail" />
+              </div>
+              <div class="contact-wrap__con__form__item">
+                <label for="tel">電話番号</label>
+                <input type="tel" id="tel" name="user_tel" />
+              </div>
+              <div class="contact-wrap__con__form__item">
+                <label for="msg">お問い合わせ内容</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </div>
+              <div class="contact-wrap__con__form__btn">
+                <button type="submit">送信する</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer" id="footer">
+      <div class="footer-wrap">
+        <small class="footer-wrap__right"
+          >© 2023 WithCode All rights reserved.</small
+        >
+      </div>
+    </footer>
+  </body>
+</html>
